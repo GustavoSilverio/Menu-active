@@ -1,0 +1,57 @@
+.nav {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    height: auto;
+    width: 100%;
+
+}
+
+nav {
+    background-color: #222;
+    color: #fff;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+ul li:hover {
+    background-color: #333;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+@media (max-width: 795px) {
+
+    ul {
+        opacity: 0;
+    }
+
+    ul.active {
+        opacity: 1;
+    }
+
+}
+
+.logo {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+}
