@@ -19,6 +19,11 @@ nav {
     justify-content: space-around;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 ul li {
     list-style-type: none;
     padding: 10px 14px;
@@ -54,4 +59,9 @@ ul {
     display: flex;
     justify-content: flex-start;
     float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
 }

@@ -1,24 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './Nav.css';
 
 const Nav = () => {
 
-    const [isMenuActive, setMenuState] = useState(false)
-
     return (
         <>
             <nav>
-                <h1 className='logo'>"LOGO"</h1>
-                <ul className={isMenuActive ? 'active' : undefined}>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                <h1 className="logo"><a href="#top">"LOGO"</a></h1>
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#top">Projects</a></li>
+                    <li><a href="#top">Contact</a></li>
                 </ul>
-                <button onClick={() => {
-                    setMenuState(!isMenuActive)
-                    console.log(isMenuActive)
-                }}>Hello World !</button>
             </nav>
         </>
     );
