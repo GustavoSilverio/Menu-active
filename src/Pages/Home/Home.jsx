@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Nav />
-            <h1>Home</h1>
+            <h1 className='greeting'>Bem-vindo ao <span className='name'>Costs</span></h1>
         </>
     );
 }

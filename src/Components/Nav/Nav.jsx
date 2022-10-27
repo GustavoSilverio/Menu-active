@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom';
 import './Nav.css';
 
 const Nav = () => {
@@ -8,11 +7,12 @@ const Nav = () => {
     return (
         <>
             <nav>
-                <h1 className="logo">"LOGO"</h1>
+                <Link to="/"><h1 className="logo">"LOGO"</h1></Link>
                 <ul>
                     <Link to="/"><li>Home</li></Link>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <Link to="/projetos"><li>Projetos</li></Link>
+                    <Link to="/empresa"><li>Empresa</li></Link>
+                    <Link to="/contato"><li>Contato</li></Link>
                 </ul>
             </nav>
         </>
