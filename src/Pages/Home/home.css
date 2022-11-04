@@ -2,15 +2,15 @@ h1 {
     text-align: center;
 }
 
-.greeting{
+.greeting {
     font-size: 3rem;
     margin-top: 8rem;
 }
 
-.name{
+.name {
     padding: 5px;
     border-radius: 3px;
-    animation: pisca 5s infinite linear;
+    animation: pisca 8s infinite;
 }
 
 /* teste */
@@ -21,7 +21,22 @@ h1 {
         color: #000;
     }
 
+    40% {
+        background-color: #000;
+        color: #ffbb00;
+    }
+
     50% {
+        background-color: #000;
+        color: #ffbb00;
+    }
+
+    60% {
+        background-color: #000;
+        color: #ffbb00;
+    }
+
+    70% {
         background-color: #000;
         color: #ffbb00;
     }

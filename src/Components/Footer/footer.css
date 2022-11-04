@@ -1,0 +1,39 @@
+footer {
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 600;
+    background-color: #333;
+    padding: 2rem 0;
+    font-size: 20px;
+}
+
+span {
+    color: #ffbb00;
+}
+
+
+ul {
+    gap: 2rem;
+}
+
+.footer li {
+    padding: 10px 0 !important;
+}
+
+.icons svg {
+    width: 2rem;
+    height: auto;
+    color: #c5c5c5;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.icons svg:hover {
+    color: #ffbb00;
+}
