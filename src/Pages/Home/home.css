@@ -1,23 +1,60 @@
-h1 {
-    text-align: center;
-}
-
 .greeting {
+    text-align: center;
+    font-weight: 400;
     font-size: 3rem;
-    margin-top: 8rem;
+    color: #000;
 }
 
 .name {
     padding: 5px;
     border-radius: 3px;
     animation: pisca 8s infinite;
+    font-weight: 600;
 }
 
-/* teste */
+.title {
+    text-align: center;
+}
+
+.frase {
+    color: #888;
+    margin: 3rem 0 2rem;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.botao-h {
+    background-color: #222;
+    width: 7rem;
+    border: none;
+    height: 2rem;
+    padding: 10px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.botao {
+    background-color: #222;
+    width: 7rem;
+    border: none;
+    height: 2rem;
+    padding: 5px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.img {
+    height: auto;
+    width: 20rem;
+    margin-top: 3rem;
+}
 
 @keyframes pisca {
     0% {
-        background-color: #fff;
+        background-color: #ececec;
         color: #000;
     }
 
@@ -42,7 +79,7 @@ h1 {
     }
 
     100% {
-        background-color: #fff;
+        background-color: #ececec;
         color: #000;
     }
 }

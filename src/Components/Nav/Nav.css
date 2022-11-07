@@ -4,19 +4,19 @@
     display: flex;
     height: auto;
     width: 100%;
-
 }
 
 nav {
     background-color: #222;
     color: #ffffff;
-    height: 6rem;
+    height: auto;
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 1rem 0;
 }
 
 ul li a {
@@ -40,19 +40,7 @@ ul {
     display: flex;
     gap: 10px;
     font-size: 20px;
-}
-
-
-@media (max-width: 795px) {
-
-    ul {
-        opacity: 0;
-    }
-
-    ul.active {
-        opacity: 1;
-    }
-
+    flex-wrap: wrap;
 }
 
 .logo {
