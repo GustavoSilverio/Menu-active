@@ -3,7 +3,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     font-weight: 600;
@@ -16,6 +16,9 @@ span {
     color: #ffbb00;
 }
 
+.sub {
+    color: #fff;
+}
 
 ul {
     gap: 2rem;
