@@ -1,0 +1,24 @@
+.sideList li {
+    color: #fff;
+    display: flex !important;
+}
+
+@media only screen and (max-width: 520px) {
+
+    .sideList {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        background-color: #222;
+        border-top: 1px solid #ffbb00;
+        border-end-end-radius: 10px;
+        border-end-start-radius: 10px;
+    }
+
+    .sideList li {
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+}
