@@ -16,7 +16,6 @@ const NovoProjeto = () => {
                 showConfirmButton: false,
                 timer: 4000,
                 timerProgressBar: true,
-                // PENIS ENIS
             })
         )
     }
