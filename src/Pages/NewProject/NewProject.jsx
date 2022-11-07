@@ -9,8 +9,13 @@ const NovoProjeto = () => {
     const alerta = () => {
         return (
             Swal.fire({
+                toast: true,
                 icon: 'success',
-                text: 'Projeto criado com sucesso !'
+                title: 'Projeto criado com sucesso',
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 4000,
+                timerProgressBar: true,
             })
         )
     }
