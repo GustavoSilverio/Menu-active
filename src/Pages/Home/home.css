@@ -52,6 +52,12 @@
     margin-top: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .img {
+        width: 15rem;
+    }
+}
+
 @keyframes pisca {
     0% {
         background-color: #ececec;
