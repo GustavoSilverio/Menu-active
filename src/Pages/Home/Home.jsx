@@ -15,8 +15,8 @@ const Home = () => {
             </div>
             <img className="img" src={Pig} alt="money pig" />
         </>
-        // TESTE
     );
+    
 }
 
 export default Home;
